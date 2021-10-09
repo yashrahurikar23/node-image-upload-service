@@ -1,0 +1,29 @@
+{
+  "name": "node-image-upload-service",
+  "version": "1.0.0",
+  "description": "A repository to maintain a codebase for a Node JS project to upload an image.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrahurikar23/node-image-upload-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrahurikar23/node-image-upload-service/issues"
+  },
+  "homepage": "https://github.com/yashrahurikar23/node-image-upload-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0"
+  }
+}
